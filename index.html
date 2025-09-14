@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Side Drawer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <!-- Hidden checkbox controls open/close -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+    <!-- Side drawer menu -->
+    <ul class="nav-links">
+      <!-- Close button (mobile/tablet only) -->
+      <li class="close-btn">
+        <label for="menu-toggle">&times;</label>
+      </li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Order</a></li>
+      <li><a href="#">Food</a></li>
+      <li><a href="#">Restaurant</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    <!-- Hamburger icon to open drawer -->
+    <label for="menu-toggle" class="menu-icon">
+      <img src="images/menu-bar.png" alt="Menu">
+    </label>
+  </nav>
+</header>
+
+<!-- ===== Section One ===== -->
+<section class="section-one">
+  <div class="text-box">
+    <h1>LOREM IPSUM</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique.
+      Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam ut tristique.
+      Curabitur nec faucibus purus. Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra.
+    </p>
+    <button class="btn">Click Me</button>
+  </div>
+  <div class="image-box">
+    <img src="images/pexels-robin-stickel-70497.jpg" alt="Burger and Fries">
+  </div>
+</section>
+
+<!-- ===== Section Two ===== -->
+<section class="section-two">
+  <div class="image-wrapper">
+    <div class="left-grid">
+      <img src="images/pexels-rachel-claire-6752433.jpg" alt="Street">
+      <img src="images/pexels-eva-bronzini-6141651.jpg" alt="Food Table">
+    </div>
+    <div class="right-tall">
+      <img src="images/pexels-mister-mister-3434523.jpg" alt="Tall Dish">
+    </div>
+  </div>
+
+  <div class="content-box">
+    <small>LOREM IPSUM</small>
+    <h2>LOREM IPSUM SET ADEMIR</h2>
+    <a href="#" class="arrow-link">
+      Click
+      <img src="images/icons8-arrow-30.png" alt="Arrow">
+    </a>
+  </div>
+</section>
+
+</body>
+</html>
