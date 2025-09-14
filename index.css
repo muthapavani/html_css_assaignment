@@ -1,4 +1,4 @@
-/* ---------- Reset ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -43,7 +43,6 @@ body {
   color: #fff;
 }
 
-/* Hide close button by default (desktop view) */
 .close-btn {
   display: none;
 }
@@ -57,7 +56,6 @@ body {
   height: 28px;
 }
 
-/* Hidden checkbox */
 .menu-toggle {
   display: none;
 }
@@ -170,7 +168,6 @@ body {
     display: block;
   }
 
-  /* Drawer hidden by default */
   .nav-links {
     position: fixed;
     top: 0;
@@ -186,7 +183,6 @@ body {
     box-shadow: -2px 0 6px rgba(0,0,0,0.2);
   }
 
-  /* Show close button only on small screens */
   .close-btn {
     display: block;
     align-self: flex-end;
@@ -199,12 +195,10 @@ body {
     font-weight: bold;
   }
 
-  /* Slide in when checked */
   .menu-toggle:checked ~ .nav-links {
     right: 0;
   }
 
-  /* Section Two images stack nicely */
   .image-wrapper {
     width: 100%;
     grid-template-columns: 1fr;
@@ -214,7 +208,7 @@ body {
   }
 }
 
-/* Extra small screens */
+
 @media (max-width: 500px) {
   .section-two {
     padding: 2rem;
